@@ -1,0 +1,511 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.left-menu,
+.right-menu {
+    display: flex;
+}
+
+.left-menu a,
+.right-menu a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.left-menu,
+.right-menu {
+    align-items: center;
+}
+
+.right-button {
+    background-color: #d62d2d;
+    border: 1px solid red;
+    padding: 20px 25px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.right-button:hover {
+    background-color: white;
+    color: red;
+}
+
+.right-button a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.right-button a:hover {
+    color: red;
+}
+
+.google-play img,
+.app-store img {
+    width: 25px;
+    height: 25px;
+}
+
+.google-play,
+.app-store {
+    display: flex;
+    align-items: center;
+    border: 3px solid rgb(8, 8, 8);
+    padding: 2px 40px;
+    border-radius: 10px;
+}
+
+.icon {
+    filter: brightness(0) invert(1);
+}
+
+.google-play:hover {
+    background-color: white;
+    color: black;
+}
+
+.app-store:hover {
+    background-color: rgb(8, 8, 8);
+    color: white;
+}
+
+.app-store {
+    margin-left: 20px;
+}
+
+.google-play {
+    background-color: rgb(8, 8, 8);
+    color: white;
+}
+
+.text-button {
+    display: flex;
+}
+
+.heading-text {
+    font-size: 90px;
+    background-image: linear-gradient(to right, rgb(248, 42, 42), rgb(65, 65, 247));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 100px;
+}
+
+.background-text,
+.background-image {
+    width: 50%;
+}
+
+.background-image img {
+    width: auto;
+    height: 900px;
+}
+
+.background-paragraph {
+    font-size: 25px;
+    color: rgb(70, 70, 70);
+    margin-bottom: 50px;
+}
+
+.second-section {
+    margin-top: 100px;
+    background-image: url("images/f-background.jpg");
+    background-repeat: no-repeat;
+    width: auto;
+    height: 1200px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+}
+
+.container1 {
+    width: 50%;
+    height: 500px;
+    margin-left: 10px;
+    padding: 100px 100px;
+    background-image: url(images/bg-card1.PNG);
+    background-size: cover;
+    position: relative;
+    margin-right: 20px;
+}
+
+.second-section-heading {
+    font-size: 50px;
+    color: rgb(9, 9, 9);
+    width: 800px;
+    height: auto;
+    margin-left: 10px;
+    padding-top: 130px;
+    padding-bottom: 60px;
+}
+
+.learn-button {
+    border: 2px solid red;
+    padding: 15px 45px;
+    border-radius: 10px;
+    margin-top: 50px;
+    content: \2192;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.learn-button:hover {
+    background-color: red;
+    color: white;
+}
+
+.container1-element {
+    width: 550px;
+    height: auto;
+    padding-bottom: 25px;
+}
+
+.container2 {
+    background: url(images/bg-card2.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-right: 10px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.third-section-heading-text {
+    font-size: 30px;
+    color: rgb(9, 9, 9);
+    width: 800px;
+    height: auto;
+    margin-left: 10px;
+    padding-top: 130px;
+    padding-bottom: 60px;
+}
+
+.container3 {
+    display: flex;
+}
+
+.container-card1-item1,
+.container-card1-item3 {
+    width: 450px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.container-card1-item2,
+.container-card1-item4 {
+    width: 450px;
+    height: auto;
+    margin-left: 50px;
+}
+
+.computer-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.container-card-item12,
+.container-card-item34 {
+    display: flex;
+}
+
+.container-card2 img {
+    width: auto;
+    height: 450px;
+    background: cover;
+    margin-left: 80px;
+}
+
+.fourth-section {
+    display: flex;
+    width: 100%;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+
+.fourth-section-image {
+    width: 50%;
+    display: block;
+    margin-left: 200px;
+}
+
+.fourth-section-text {
+    width: 50%;
+}
+
+.fourth-section-text-body-number1,
+.fourth-section-text-body-number2,
+.fourth-section-text-body-number3,
+.fourth-section-text-body-number4 {
+    display: flex;
+    align-items: center;
+}
+
+.number-wrapper {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 60%;
+    background-color: #90bdf8;
+    margin-right: 20px;
+}
+
+.number-wrapper:hover {
+    background-color: #2f83f0;
+    color: white;
+}
+
+.number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.p-text {
+    font-size: 25px;
+}
+
+.head-text {
+    font-size: 50px;
+}
+
+.one-side-container,
+.two-side-container {
+    display: flex;
+}
+
+.fourth-section-text-body-number1,
+.fourth-section-text-body-number3 {
+    margin-right: 40px;
+}
+
+.fifth-section {
+    background-color: #eef1f6;
+    display: flex;
+    width: 100%;
+}
+
+.text-body {
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px 20px;
+    box-shadow: 0 0 25px rgba(58, 58, 58, 0.2);
+}
+
+.tbd {
+    margin-top: 95px;
+}
+
+.fifth-section-text,
+.fifth-section-image {
+    width: 50%;
+}
+
+.fifth-section-image img {
+    width: 900px;
+    height: 1050px;
+
+}
+
+.fifth-section-text {
+    padding-left: 250px;
+    padding-top: 150px;
+    padding-right: 30px;
+}
+
+.sixt-section-text-head {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.team-image1 {
+    text-align: center;
+}
+
+.sixth-section-images {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+
+.team-image1,
+.team-image2,
+.team-image3,
+.team-image4 {
+    margin: 10px;
+}
+
+.view-team {
+    border: 2px solid red;
+    padding: 17px 25px;
+    border-radius: 8px;
+    color: red;
+}
+
+.view-team:hover {
+    background: red;
+    color: white;
+}
+
+.view-members {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.seventh-section {
+    background-image: url("images/image-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1100px;
+    margin-top: 150px;
+}
+
+.seventh-section-head,
+.eighth-section-head {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.review-box {
+    width: 900px;
+    height: 450px;
+    background-color: rgb(255, 246, 246);
+    border-radius: 15px;
+    text-align: center;
+    padding: 50px 50px;
+    margin: 100px auto;
+}
+
+.review-txt {
+    font-size: 17px;
+}
+
+.card {
+    box-shadow: 0 20px 25px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-left: 20px;
+}
+
+.card-txt {
+    text-align: left;
+    padding: 20px 20px;
+}
+
+.eight-section-cards {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.eighth-section {
+    background-color: #f7f7f7;
+}
+
+.input-field {
+    padding: 20px 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.button {
+    padding: 18px 18px;
+    border-radius: 5px;
+    background-color: rgb(206, 6, 6);
+    color: white;
+}
+
+.subscription {
+    width: 900px;
+    height: 220px;
+    background-color: rgb(74, 74, 253);
+    border-radius: 20px;
+    padding: 40px 40px;
+    box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.2);
+}
+
+.ninth-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    width: 56%;
+    color: white;
+}
+
+#myCheckbox {
+    font-size: 15px;
+    margin-top: 25px;
+    color: white;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    width: 100%;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #000000;
+    font-size: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: #34559c;
+    /* change to the brand color of the social media platform */
+}
+
+.bottom-text {
+    font-size: 17px;
+}
+
+hr {
+    background-color: #666666;
+}
